@@ -1,0 +1,6 @@
+[gerrit]
+host=gerrit.wikimedia.org
+port=29418
+project=mediawiki/extensions/Link_Attributes.git
+defaultbranch=master
+defaultrebase=0
