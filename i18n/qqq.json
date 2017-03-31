@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dennis Roczek"
-        ]
-    },
-  "linkattributes-desc": "{{desc|name=Link Attributes|url=https://www.mediawiki.org/wiki/Extension:Link_Attributes}}"
+	"@metadata": {
+		"authors": [
+			"Dennis Roczek"
+		]
+	},
+	"linkattributes-desc": "{{desc|name=Link Attributes|url=https://www.mediawiki.org/wiki/Extension:Link_Attributes}}"
 }
