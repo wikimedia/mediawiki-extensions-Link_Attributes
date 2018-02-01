@@ -26,7 +26,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'author'         => array('Toby Inkster', 'Dennis Roczek'), 
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:Link_Attributes',
 	'descriptionmsg' => 'linkattributes-desc',
-  'license-name'   => "GPL-2.0+"
+  'license-name'   => "GPL-2.0-or-later"
 );
  
 $wgHooks['LinkEnd'][] = 'linkattr_InternalLink';
