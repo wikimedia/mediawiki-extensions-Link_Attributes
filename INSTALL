@@ -5,4 +5,4 @@ LinkAttributes Extension
 
         require_once( "$IP/extensions/LinkAttributes/Link_Attributes.php" );
 
-See http://www.mediawiki.org/wiki/Extension:LinkAttributes for further details.
+See https://www.mediawiki.org/wiki/Extension:LinkAttributes for further details.
