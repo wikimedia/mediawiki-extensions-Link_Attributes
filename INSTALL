@@ -1,8 +1,0 @@
-LinkAttributes Extension
-
-* Download the latest available version and extract it to your wiki extension directory. 
-* Add the following line to LocalSettings.php:
-
-        require_once( "$IP/extensions/LinkAttributes/Link_Attributes.php" );
-
-See https://www.mediawiki.org/wiki/Extension:LinkAttributes for further details.
