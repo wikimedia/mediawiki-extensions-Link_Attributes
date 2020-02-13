@@ -44,12 +44,15 @@ class Hooks {
 				}
 			}
 
-			if ( isset( $attribs[ 'rel' ] ) )
+			if ( isset( $attribs[ 'rel' ] ) ) {
 				$attribs[ 'rel' ] = trim( preg_replace( '/\s+/', ' ', $attribs[ 'rel' ] ) );
-			if ( isset( $attribs[ 'rev' ] ) )
+			}
+			if ( isset( $attribs[ 'rev' ] ) ) {
 				$attribs[ 'rev' ] = trim( preg_replace( '/\s+/', ' ', $attribs[ 'rev' ] ) );
-			if ( isset( $attribs[ 'class' ] ) )
+			}
+			if ( isset( $attribs[ 'class' ] ) ) {
 				$attribs[ 'class' ] = trim( preg_replace( '/\s+/', ' ', $attribs[ 'class' ] ) );
+			}
 		}
 	}
 
