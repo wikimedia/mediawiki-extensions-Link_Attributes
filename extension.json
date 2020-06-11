@@ -11,7 +11,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "parserhook",
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"MessagesDirs": {
 		"LinkAttributes": [
@@ -19,7 +19,8 @@
 		]
 	},
 	"AutoloadClasses": {
-		"MediaWiki\\Extension\\LinkAttributes\\Hooks": "includes/Hooks.php"
+		"MediaWiki\\Extension\\LinkAttributes\\Hooks": "includes/Hooks.php",
+		"MediaWiki\\Extension\\LinkAttributes\\LinkAttributeParser": "includes/LinkAttributeParser.php"
 	},
 	"Hooks": {
 		"HtmlPageLinkRendererEnd": "MediaWiki\\Extension\\LinkAttributes\\Hooks::onHtmlPageLinkRendererEnd",
