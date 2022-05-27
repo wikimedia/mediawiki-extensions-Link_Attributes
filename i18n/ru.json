@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Diman Russkov"
+			"Diman Russkov",
+			"WindEwriX"
 		]
 	},
-	"linkattributes-desc": "Позволяет легко модифицировать rel/rev/class для элементов <a>"
+	"linkattributes-desc": "Позволяет легко модифицировать rel/rev/class для элементов &lt;a&gt;"
 }
