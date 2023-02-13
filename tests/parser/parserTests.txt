@@ -1,0 +1,45 @@
+!! Version 2
+
+!! article
+Lorem exists
+!! text
+Lorem ipsum.
+!! endarticle
+
+!! test
+Internal links get nothing added
+!! wikitext
+[[Foobar|Page doesn't exist]]
+[[Lorem exists]]
+!! html
+<p><a href="/index.php?title=Foobar&amp;action=edit&amp;redlink=1" class="new" title="Foobar (page does not exist)">Page doesn't exist</a>
+<a href="/wiki/Lorem_exists" title="Lorem exists">Lorem exists</a>
+</p>
+!! end
+
+!! test
+External link with rel 'me' added
+!! wikitext
+[https://example.org/foobar My website ((me))]
+!! html
+<p><a rel="nofollow me" class="external text" href="https://example.org/foobar">My website</a>
+</p>
+!! end
+
+!! test
+External link with class 'lorem' added
+!! wikitext
+[https://example.org/foobar My website ((.lorem))]
+!! html
+<p><a rel="nofollow" class="external text lorem" href="https://example.org/foobar">My website</a>
+</p>
+!! end
+
+!! test
+External link with 'external' and 'text' classes removed
+!! wikitext
+[https://example.org/foobar My website ((-.external -.text))]
+!! html
+<p><a rel="nofollow" href="https://example.org/foobar">My website</a>
+</p>
+!! end
