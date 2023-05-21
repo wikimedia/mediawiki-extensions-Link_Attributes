@@ -17,7 +17,7 @@ class LinkAttributeParserTest extends TestCase {
 		static::assertSame( $expectedAttrs, $parser->getAttributes() );
 	}
 
-	public function provideSyntax() {
+	public static function provideSyntax() {
 		return [
 			'no attributes' => [
 				'text' => 'Foo',
