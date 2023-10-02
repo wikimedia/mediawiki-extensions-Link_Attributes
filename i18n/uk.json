@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Movses"
+		]
+	},
+	"linkattributes-desc": "Дозволяє легко модифікувати rel/rev/class у &lt;a&gt; елементах"
+}
