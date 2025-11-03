@@ -2,10 +2,10 @@
 
 namespace MediaWiki\Extension\LinkAttributes;
 
-use Html;
+use MediaWiki\Html\Html;
 use MediaWiki\Linker\LinkRenderer;
 use MediaWiki\Linker\LinkTarget;
-use Title;
+use MediaWiki\Title\Title;
 
 class Hooks {
 
