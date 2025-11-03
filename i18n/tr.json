@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"SaldırganSincap"
 		]
 	},
-	"linkattributes-desc": "<a> öğelerinde rel/rev/class kolayca değiştirilmesini sağlar"
+	"linkattributes-desc": "&lt;a&gt; ögelerinde rel/rev/class işlevin kolayca değiştirilmesine sağlar"
 }
